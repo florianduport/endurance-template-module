@@ -1,19 +1,10 @@
 {
   "type": "module",
   "name": "endurance-template-module",
-  "description": "an endurance module example",
-  "version": "0.2.3",
-  "main": "app.js",
+  "version": "0.2.1",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "prod": "node ./bin/www",
-    "test": "mocha"
-  },
-  "dependencies": {
-    "axios": "^1.7.7",
-    "debug": "^4.3.7",
-    "endurance-core": "^0.2.6",
-    "mongoose": "^7.0.4"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/florianduport/endurance-template-module/issues"
   },
-  "homepage": "https://github.com/florianduport/endurance-template-module#readme"
+  "homepage": "https://github.com/florianduport/endurance-template-module#readme",
+  "description": ""
 }
