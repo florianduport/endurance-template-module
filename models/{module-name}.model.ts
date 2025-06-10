@@ -1,3 +1,6 @@
+/**
+ * Start of Selection
+ */
 import mongoose from "mongoose";
 
 const {module-name}Schema = new mongoose.Schema({
@@ -10,6 +13,6 @@ const {module-name}Schema = new mongoose.Schema({
 
 });
 
-const {module-name} = mongoose.model("{module-name}", {module-name}Schema, '{module-name}');
+const User = mongoose.model("{module-name}", {module-name}Schema, '{module-name}');
 
 export default {module-name};
